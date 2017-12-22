@@ -10,7 +10,7 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.faishalbadri.retrofit.R;
-import com.faishalbadri.retrofit.model.city.EventCityItem;
+import com.faishalbadri.retrofit.model.EventCityItem;
 import com.faishalbadri.retrofit.ui.MainAdapter.ViewHolder;
 import java.util.List;
 

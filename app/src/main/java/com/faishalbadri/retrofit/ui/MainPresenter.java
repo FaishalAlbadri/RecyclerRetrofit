@@ -1,6 +1,6 @@
 package com.faishalbadri.retrofit.ui;
 
-import com.faishalbadri.retrofit.model.city.EventCityItem;
+import com.faishalbadri.retrofit.model.EventCityItem;
 import com.faishalbadri.retrofit.repository.MainDataResource.DataCallback;
 import com.faishalbadri.retrofit.repository.MainRepository;
 import com.faishalbadri.retrofit.ui.MainContract.MainView;

@@ -1,8 +1,7 @@
 package com.faishalbadri.retrofit.ui;
 
 import com.faishalbadri.retrofit.base.BasePresenter;
-import com.faishalbadri.retrofit.model.categories.CategoriesItem;
-import com.faishalbadri.retrofit.model.city.EventCityItem;
+import com.faishalbadri.retrofit.model.EventCityItem;
 import java.util.List;
 
 /**

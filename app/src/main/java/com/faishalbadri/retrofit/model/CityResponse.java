@@ -1,14 +1,14 @@
-package com.faishalbadri.retrofit.model.categories;
+package com.faishalbadri.retrofit.model;
 
+import com.google.gson.annotations.SerializedName;
 import java.util.List;
 import javax.annotation.Generated;
-import com.google.gson.annotations.SerializedName;
 
 @Generated("com.robohorse.robopojogenerator")
-public class CategoriesResponse{
+public class CityResponse{
 
-	@SerializedName("categories")
-	private List<CategoriesItem> categories;
+	@SerializedName("event_city")
+	private List<EventCityItem> eventCity;
 
 	@SerializedName("error")
 	private boolean error;
@@ -16,12 +16,12 @@ public class CategoriesResponse{
 	@SerializedName("message")
 	private String message;
 
-	public void setCategories(List<CategoriesItem> categories){
-		this.categories = categories;
+	public void setEventCity(List<EventCityItem> eventCity){
+		this.eventCity = eventCity;
 	}
 
-	public List<CategoriesItem> getCategories(){
-		return categories;
+	public List<EventCityItem> getEventCity(){
+		return eventCity;
 	}
 
 	public void setError(boolean error){
@@ -43,8 +43,8 @@ public class CategoriesResponse{
 	@Override
  	public String toString(){
 		return 
-			"CategoriesResponse{" + 
-			"categories = '" + categories + '\'' + 
+			"CityResponse{" + 
+			"event_city = '" + eventCity + '\'' + 
 			",error = '" + error + '\'' + 
 			",message = '" + message + '\'' + 
 			"}";

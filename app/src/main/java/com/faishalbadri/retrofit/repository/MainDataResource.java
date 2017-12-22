@@ -1,8 +1,7 @@
 package com.faishalbadri.retrofit.repository;
 
 import android.support.annotation.NonNull;
-import com.faishalbadri.retrofit.model.categories.CategoriesItem;
-import com.faishalbadri.retrofit.model.city.EventCityItem;
+import com.faishalbadri.retrofit.model.EventCityItem;
 import java.util.List;
 
 /**
@@ -11,7 +10,7 @@ import java.util.List;
 
 public interface MainDataResource {
 
-  void getData(String apikey,@NonNull DataCallback dataCallback);
+  void getData(String apikey, @NonNull DataCallback dataCallback);
 
   interface DataCallback {
 

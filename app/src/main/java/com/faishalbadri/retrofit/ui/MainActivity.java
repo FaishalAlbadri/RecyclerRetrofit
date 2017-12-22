@@ -8,7 +8,7 @@ import android.widget.Toast;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.faishalbadri.retrofit.R;
-import com.faishalbadri.retrofit.model.city.EventCityItem;
+import com.faishalbadri.retrofit.model.EventCityItem;
 import com.faishalbadri.retrofit.repository.MainRepositoryInject;
 import com.faishalbadri.retrofit.ui.MainContract.MainView;
 import java.util.ArrayList;
